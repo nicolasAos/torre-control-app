@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "566780078067",
+    "firebase_url": "https://agv-go.firebaseio.com",
+    "project_id": "agv-go",
+    "storage_bucket": "agv-go.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566780078067:android:54f6f732788a0437",
+        "android_client_info": {
+          "package_name": "com.apptorrecontrol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "566780078067-5sacu55j81jvt4qtpdmbssdmtq198r3s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apptorrecontrol",
+            "certificate_hash": "17a78f0ce0f190bb85f2dd0875354c0002a44838"
+          }
+        },
+        {
+          "client_id": "566780078067-jdnvs9mr6uaskv0ab4pol6j641o2j7jm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apptorrecontrol",
+            "certificate_hash": "41409b5552eb4087da3e2c68684f7ab9583d5006"
+          }
+        },
+        {
+          "client_id": "566780078067-88srkr7uaap8rtlv5ppo1h535i72s4r7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBpRJUANXBNw6Jj3JJJRnpjANUJDgKKIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "566780078067-88srkr7uaap8rtlv5ppo1h535i72s4r7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "566780078067-so9nd6ha6otaguusopm4jlmhsg8kjcs6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.appTorreControl"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

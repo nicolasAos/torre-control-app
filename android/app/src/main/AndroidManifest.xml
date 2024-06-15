@@ -1,0 +1,98 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.apptorrecontrol">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> 
+    <!-- <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> -->
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    
+    <application
+      android:name=".MainApplication"
+      android:largeHeap="true"
+      android:label="@string/app_name"
+      android:icon="@mipmap/ic_launcher"
+      android:roundIcon="@mipmap/ic_launcher_round"
+      android:allowBackup="false"
+      android:theme="@style/AppTheme"
+      android:requestLegacyExternalStorage="true"
+      android:usesCleartextTraffic="true"
+      >
+  <meta-data
+    android:name="com.supersami.foregroundservice.notification_channel_name"
+    android:value="Sticky Title"
+  />
+  <meta-data
+    android:name="com.supersami.foregroundservice.notification_channel_description"
+    android:value="Sticky Description."
+  />
+  <meta-data
+    android:name="com.supersami.foregroundservice.notification_color"
+    android:resource="@color/blue"
+  />
+  <service android:name="com.supersami.foregroundservice.ForegroundService"></service>
+  <service android:name="com.supersami.foregroundservice.ForegroundServiceTask"></service>
+
+      <provider
+        android:name="com.vinzscam.reactnativefileviewer.FileProvider"
+        android:authorities="${applicationId}.provider"
+        android:exported="false"
+        android:grantUriPermissions="true">
+        <meta-data
+            android:name="android.support.FILE_PROVIDER_PATHS"
+            android:resource="@xml/file_viewer_provider_paths"
+        />
+      </provider>
+      <meta-data 
+        android:name="com.onesignal.NotificationAccentColor.DEFAULT" 
+        android:value="FF283484" 
+      />
+      <meta-data
+        android:name="com.google.android.geo.API_KEY"
+	      android:value="AIzaSyCJDbdp8hP1zm9ozzR0fvUJVdpxGna0i04"/>
+	
+      <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+      <activity
+        android:name=".MainActivity"
+        android:label="@string/app_name"
+        android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+        android:launchMode="singleInstance"
+        android:screenOrientation="portrait"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        <intent-filter>
+          <action android:name="android.intent.action.VIEW" />
+          <category android:name="android.intent.category.DEFAULT" />
+          <category android:name="android.intent.category.BROWSABLE" />
+          <data android:scheme="agvgo" />
+        </intent-filter>
+      </activity>
+      <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+      <uses-library android:name="org.apache.http.legacy" android:required="false" />
+      <service android:name="com.asterinet.react.bgactions.RNBackgroundActionsTask" />
+    </application>
+    <queries>
+      <intent>
+        <action android:name="android.intent.action.VIEW" />
+        <!-- If you don't know the MIME type in advance, set "mimeType" to "*/*". -->
+        <data android:mimeType="application/pdf" />
+      </intent>
+    </queries>
+</manifest>

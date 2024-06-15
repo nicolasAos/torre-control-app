@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>566780078067-so9nd6ha6otaguusopm4jlmhsg8kjcs6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.566780078067-so9nd6ha6otaguusopm4jlmhsg8kjcs6</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBT0yBIv6i9x2GmuD5T5kjvjK0eoVLKpxY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>566780078067</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>br.com.agv.torre-control</string>
+	<key>PROJECT_ID</key>
+	<string>agv-go</string>
+	<key>STORAGE_BUCKET</key>
+	<string>agv-go.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:566780078067:ios:929bfd933cf1929b</string>
+	<key>DATABASE_URL</key>
+	<string>https://agv-go.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,1 @@
+export {WSEntregaRemesa} from './post';

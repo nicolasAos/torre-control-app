@@ -1,0 +1,8 @@
+export const CREO_SERVICES_BASE_URL = 'http://190.145.108.98:8081/CreoServicesV4/rest/';
+
+const ENVIROMENT = 'DEV';
+
+const MIXPANEL_DEV = 'bc8b6c750a4042cde09bd076acc55c6b';
+const MIXPANEL_PROD = '3ec9ea1267084c696735f968ba5b5665';
+
+export const MIXPANEL_TOKEN = ENVIROMENT === 'DEV' ? MIXPANEL_DEV : MIXPANEL_PROD;

@@ -1,0 +1,796 @@
+{
+    "screens": {
+        "menu": {
+            "title": {
+                "offers": "Ofertas",
+                "travels": "Viagens",
+                "inspect": "Inspeção de rota",
+                "register": "Cadastro",
+                "my-work-day": "Jornada do Motorista",
+                "travels-transfer": "Transferência de Planilhas",
+                "settings": "Configurações",
+                "logout": "Sair"
+		            },
+            "header": {
+                "welcome": "Bem vindo",
+                "testing-message": "Não se preocupe, está em modo de teste",
+		"mapHeader" : "Direção no Mapa"
+            },
+            "register": {
+                "menu": {
+                    "user-data": "Dados de Usuario",
+                    "my-vehicles": "Meus Veiculos",
+                    "security": "Segurança"
+                },
+                "user-data": {
+                    "placeholder": {
+                        "nickname": "Como você gostaria de ser chamado?",
+                        "name": "Nome",
+                        "phone": "Telefone",
+                        "cpf": "CPF",
+                        "email": "E-Mail"
+                    }
+                }
+            },
+            "offers": {
+                "title": {
+                    "freight-preferences": "Preferências de Frete",
+                    "wanna-freight": "Quero Frete",
+                    "offers": "Ofertas de Frete"
+                },
+                "preferences": {
+                    "edit-freight-preferences": "Editar preferência de frete",
+                    "km-to-load": "Quantos kms eu quero dirigir para carregar?",
+                    "prefer-routes": "Eu prefiro rotas",
+                    "short": "Curtas",
+                    "long": "Longas",
+                    "preferred-regions": "Regiões preferidas",
+                    "enter-short-km": "Digite o km entre 10 e 190",
+                    "enter-long-km": "Insira o km entre 200 e 5000"
+                },
+                "wanna-freight": {
+                    "warning-preferences": "Aumente suas chances de ser contratado, mantendo suas preferências atualizadas",
+                    "license-plate": "Placa",
+                    "i-am-available": "Estou Disponível",
+                    "vehicle": "Veículo"
+                },
+                "offers": {
+                    "plate": "Placa",
+                    "shipping-company": "Transportadora",
+                    "travel-preference-warning": "Esta viagem está de acordo com suas preferências",
+                    "offer-unavailable-warning": "Essa viagem já foi adicionada por outro motorista, \n mas fique aqui, temos outras opções para você",
+                    "congrats": "Parabéns! Aguarde os dados da viagem",
+                    "select-plate-message": "Selecione a placa e a transportadora",
+                    "select-company-message": "Selecione a transportadora",
+                    "origin": "Origem",
+                    "destiny": "Destino",
+                    "vehicle": "Veículo",
+                    "distance": "distância",
+                    "weight": "Peso",
+                    "load-type": "Tipo de carga",
+                    "collection": "Coleta",
+                    "delivery-date": "Data de entrega",
+                    "amount": "Quantidade",
+                    "freight-amount": "Quantidade de carga",
+                    "payment": "Pagamento",
+                    "i-wanna-that": "Quero essa",
+                    "shared-by": "Compartilhado por",
+                    "lets-ride-bud": "Vamos nessa Parceiro",
+                    "saved-in": "Salvo em ofertas preferidas"
+                }
+            },
+            "new-password": {
+                "body": "Você está logado com uma senha temporária. Por favor insira uma nova senha."
+            }
+        },
+        "colecta" : {
+	    "stepOne" : "Confirme a chegada ao ponto de coleta 'cliente'",
+	    "stepTwo" : "Caixas de registro fotográfico, documento, relação de despacho",
+	    "stepThree" : "Confirme a saída do cliente com documentos",
+	    "stepFour" : "Confirme a chegada na filial para fazer o download",
+	    "report" : "Relatório de área de coleção"
+        },
+	"ctesScreen": {
+		"inventory": "ENTREGA DE INVENÇÃO COMPLETA",
+		"noInventory" : "ENTREGA COMPLETA NÃO INVENTIVA",
+		"sac" : "RELÁTORIO SAC",
+		"entrega" : "COLEÇÃO COM UMA CAIXA DE DIFERENÇÃ VS DOCUMENTOS",
+		"support": "Adicionar registro fotográfico",
+        "labels": "Gerar rótulos",
+        "llegada" : "CHEGADA NO PONTO",
+        "inicio" : "CARREGA INICIAR",
+        "fin" : "FIM DE CARGA",
+        "salida" : "PONTO DE PARTURE",
+        "descargue": "INÍCIO DO CARREGAMENTO"
+	},
+	"rotulos" : {
+	    "network" : "Rede",
+	    "sendto" : "Enviar para",
+	    "boxes" : "Caixas",
+	    "kilos" : "Quilos",
+	    "city" : "Ciudade" ,
+	    "boxesReceived" : "Boixes Coletadas",
+	    "fridgeReceived" : "Refrigeradores recebidos"
+	},
+        "ctes": {
+            "spreadsheet": "Planilhas",
+            "manifest": "Manifiesto",
+            "date-init": "Data de inicio",
+            "client": "Cliente",
+            "addressee": "Endereço",
+            "destination": "Destino",
+            "volumes": "Volumes",
+            "scheduling": "Data da entrega",
+            "eta": "Cálculo de ETA",
+            "search": "Procurar",
+            "number_spreadsheets": "Número de planilhas",
+            "processed_documents": "Remessas processadas",
+            "boxes_delivered": "Caixas entregues",
+            "boxesReceived" : "Boxes Received",
+            "fridgeReceived" : "Fridges Received",
+            "delivery" : "Entrega",
+            "pickup": "Escolher",
+            "recipient": "Destinatário"
+        },
+        "invoices": {
+            "recipient": "Destinatário",
+            "CT-e": "Viajem ",
+            "destination": "Endereço",
+            "invoice": "Notas Fiscais ",
+            "delivery": "Entregas ",
+            "pickup": "Coletas ",
+            "volume": "Volumes",
+            "invoices-total": "Total de notas :"
+        },
+        "invoices-by-cte": {
+            "recipient": "Recebedor",
+            "CT-e": "CT-e ",
+            "destination": "Destinatário",
+            "invoice": "Notas ",
+            "volume": "Volumes"
+        },
+
+        "modal": {
+            "use-test-mode": "Usar ambiente de testes?"
+        },
+        "login": {
+            "forgot-password": "Esqueci minha senha",
+            "new-here": "Você é novo aqui? Cadatre-se",
+            "numbers-only": "CPF (somente numeros)"
+        },
+        "low": {
+            "nf": "Pedido/Remesa:",
+            "volume": "Volumes:",
+            "cte": "CT-e:",
+            "name": "Nome"
+        },
+        "my-travels": {
+            "im-going-to-be-late": "Vou me atrasar",
+            "new-collection": "Você tem uma coleta programada.",
+            "collection-information": "Dados de coleta",
+            "date-and-time": "Data e Hora",
+            "i-will-not-collect": "Não vou conseguir coletar",
+            "select-the-date": "Selecione a Data",
+            "what-happened": "O que aconteceu?",
+            "trip-number": "Número da Viagem",
+            "tell-me-what-happened": "Me diga o que aconteceu",
+            "dont-forget-your-trip-number": "Não se esqueça do número da sua planilha ...",
+            "release-entry": "Compareça na portaria com seus documentos",
+            "glad-you-came": "Beleza! Que bom que Chegou",
+            "already-here-at-the-entrance": "Estou aqui na portaria!",
+            "i-can-arrive-at": "Posso chegar às",
+            "no-travel": "Sem viagens no momento"
+        },
+        "my-travel-initiate": {
+            "manifest": "Manifiesto:",
+            "start-initi": "Data de inicio",
+            "no-trip-started": "Nenhuma viagem iniciada",
+            "": ""
+        },
+        "my-travels-finish": {
+            "syncing": "Sincronizando",
+            "synced": "Sincronizado",
+            "no-trip-completed!": "Nenhuma viagem pra sincronizar",
+            "sync": "sincronizar",
+            "delete": "Eliminar"
+        },
+        "occurrence": {
+            "nf": "Pedido/Remesa:",
+            "volume": "Volume:",
+            "cte": "CT-e:",
+            "placeholder": "Tipo de Ocorrẽncia",
+            "description": "Descrição"
+        },
+        "reset-password": {
+            "to-reset-your-password": "Para recuperar sua senha, digite o CPF"
+        },
+        "token-verify": {
+            "token": "Coloque e código de verificação:",
+            "placeholder-token": "código de verificação"
+        },
+        "register": {
+            "nickname": "Como você gostaria de ser chamado?",
+            "name": "Nome",
+            "cpf": "CPF",
+            "cell-phone": "Número de telefone",
+            "email": "Email",
+            "confirm-the-password": "Confirma a senha"
+        },
+        "auth": {
+            "loading": "Carregando..."
+        },
+        "term": {
+            "agree-term": "Eu concordo com o termo"
+        },
+        "travels-tranfer": {
+            "just-an-option": "Selecione apenas uma opção",
+            "consignment-or-planillla": "Complete com número de Planilha ou Remesa",
+            "send-sucess": "Enviado com sucesso",
+            "send-error": "erro de envio"
+        },
+        "settings": {
+            "wifi": "WiFi",
+            "location": "Localização",
+            "diagnostic": "Diagnóstico",
+            "open-settings": "Abrir configurações do App",
+            "changing": "Alterando",
+            "on": "On",
+            "off": "Off"
+        },
+        "spreadsheet": {
+            "date-init": "Data de inicio",
+            "manifest": "Manifiesto:",
+            "origin": "Origem",
+            "final-destination": "Destino final",
+            "deliveries": "Entregas",
+            "invoices": "invoices",
+            "volumes": "Volumes",
+            "trip-started": "Viagem iniciada",
+            "finish-the-previous-trip": "Finalize a viagem anterior"
+        },
+        "reset-token": {
+            "reset-password-token": "Redefina sua senha:"
+        },
+        "next-collect": {
+            "next-collection": "Próxima coleta",
+            "scheduled-collection": "Sem coleta programada",
+            "travel": "Viagem",
+            "collection-date": "Data da coleta",
+            "rescheduled-date": "Data reprogramada",
+            "hour": "Hora"
+        },
+        "inspects": {
+            "auditDate": "Data da auditoria",
+            "disAux": "Auxiliares de distribuição",
+            "driverName": "Nome do motorista",
+            "license": "Matrícula"
+        },
+        "audits": {
+            "photo": "Registro fotografico",
+            "superName": "Nome do Supervisor",
+            "totalOrders": "Pedidos totais",
+            "totalOrdersDelivered": "Total de pedidos entregues",
+            "orderIssues": "pedidos com novidade",
+            "observations": "Observações"
+        },
+        "sacReport": {
+            "nf": "Pedido/Remesa:",
+            "volume": "Volume:",
+            "cte": "CT-e:",
+            "placeholder": "Tipo de Ocorrẽncia",
+            "description": "Descrição"
+        },
+      "date-picker": {
+          "delivery-date": "Data de entrega",
+          "select-date": "Selecione a data",
+          "delivery-arrived": "Data de chegada",
+          "pickup-start" : "Data de upload",
+          "delivery-start": "Fim da descarga",
+          "delivery-end": "Data final",
+          "pickup-end" : "Fin da load"
+      }
+    },
+
+    "buttons": {
+        "print" : "Imprimir",
+        "enter": "Entrar",
+        "send": "Enviar",
+        "register": "Registrar-se",
+        "no": "NO",
+        "yes": "Sim",
+        "cancel": "Cancelar",
+        "ok": "OK",
+        "go-to-store": "Ir para Loja",
+        "save": "Salvar",
+        "ok-got-it": "ok, entendi",
+        "verify": "Verificar",
+        "confirm": "Confirmar",
+        "midwest": "Medio Oeste",
+        "north": "norte",
+        "northeast": "Noreste",
+        "southeast": "Sureste",
+        "south": "Sur",
+        "for-my-vehicle": "Para meu veículo",
+        "other-offers": "Outras ofertas",
+        "liked-offers": "Ofertas que eu gostei",
+        "back": "Voltar",
+        "later": "Mais tarde",
+        "now": "Agora",
+        "spy": "Conferir",
+        "available": "Disponibilidade",
+        "traveling": "Em Viagem",
+        "unavailable": "Indisponivel",
+        "problem": "Ocorrencia",
+        "arrived": "Chegada",
+        "i-arrived": "Cheguei",
+        "delivery": "Entrega",
+        "occurrence": "Ocorrencia",
+        "checkin": "Cheguei ao destino de entrega",
+        "delivering": "Entrega...",
+        "confirm-delivery": "Confirmar envio",
+        "save-occurrence": "Salvar Ocorrencia",
+        "pending-trip": "Viagem pendente, clique para atualizar",
+        "return": "Voltar",
+        "notify": "Avisar",
+        "no-travel": "Viagem pendente, clique para atualizar",
+        "start": "Iniciar",
+        "start-trip": "Iniciar viagem",
+        "end-trip": "Fim de viajem",
+        "get-hour": "Agora",
+        "finish-pickup": "Finalizar",
+        "init-journey-delivery": "Iniciar Viagem",
+        "end": "Finalizar",
+        "refresh": "Atualizar",
+        "maps": "Mapas",
+        "my-route": "Minha Rota",
+        "my-location": "Meu Local",
+        "ok-inspect": "Inspecionar",
+        "audit": "Auditoria",
+        "save-audit": "Salvar auditoria",
+        "accept": "Aceitar"
+    },
+
+
+    "date-picker": {
+        "delivery-date": "Data de entrega",
+        "select-date": "Selecione a data",
+        "delivery-arrived": "Data de chegada",
+        "pickup-start" : "Data de upload",
+        "delivery-start": "Fim da descarga",
+        "delivery-end": "Data final",
+        "pickup-end" : "Fin da load"
+    },
+
+    "diagnostics": {
+        "internet": "Internet",
+        "internet-on": "Conectado",
+        "internet-off": "Desconectado",
+        "gps": "GPS",
+        "gps-on": "Ativado",
+        "gps-off": "Ligue o seu GPS no modo de alta precisão",
+        "battery": "Bateria",
+        "clock": "Hora"
+    },
+
+    "empty": {
+
+    },
+
+    "geolocation": {
+        "notification": {
+            "title": "Localização",
+            "text": "Ativado"
+        },
+        "alert": {
+            "title": "AGV GO requer permissão de rastreamento de localização",
+            "message": "Gostaria de abrir as configurações do aplicativo?",
+            "buttons": {
+                "no": "Não",
+                "yes": "Sim"
+            }
+        }
+    },
+
+    "loading": {
+        "text": "Carregando..."
+    },
+
+    "modal": {
+        "llegada_urbanos": "Por favor, termine a chegada e o carregamento para iniciar o pediduo",
+        "entrega_urbanos" : "Por favor, conclua o tipo de entrega antes de continuar",
+        "urbanos-admin-llegada": "Por favor, termine a chegada antes de iniciar o download",
+        "salida" : "Por favor, termine a etapa anterior antes de iniciar a viagem",
+        "attention": "Atenção",
+        "delete-profile-photo": "Apagar foto de perfil?",
+        "app-out-of-date": "Vimos aqui que sua versão está desatualizada! Clique aqui para atualizar",
+        "term": "Finalizado",
+        "fill-driver-data": "Primero, complete os dados do motorista",
+        "enter-the-password": "digite a senha",
+        "use-homologation": "Deseja usar a homologação?",
+        "diagnostic": "Diagnóstico",
+        "use-test-mode": "Deseja usar a homologação?",
+        "access-denied": "Motorista, para utilizar esta funcionalidade entre em contato com a equipe Solística",
+        "checkout-automatically": "O pagamento será feito automaticamente.",
+        "cte-finalized": "Todas as notas foram finalizadas, o CTE ser finalizado.",
+        "new-password": "Insira uma nova senha",
+        "delivery-confirmed": "Entrega confirmada com sucesso!",
+        "pickup-confirmed": "Scolher confirmada com sucesso!",
+        "confirm-delivery": "Quer confirmar a entrega?",
+        "confirm-pickup": "Quer confirmar scolher?",
+        "occurrence": "Ocorrencia",
+        "occurrence-saved": "Ocorrencia salva com sucesso!",
+        "save-the-occurrence": "Você quer salvar a ocorrenicia?",
+        "delet-trip": "Viagens removidas com sucesso!",
+        "sync-travels-sucess": "Viaje sincronizado com exito!",
+        "synced-delete": "Quer excluir as viagens concluídas e sincronizadas?",
+        "delete-complete-trips": "Você quer sincronizar viagens concluídas?",
+        "connect-to-accept": "Você deve estar conectado à Internet para aceitar o termo",
+        "go-to-the-concierge": "Obrigada Motô! Agora é só comparecer na recepção com o documento em mãos",
+        "trip-update": "A viagem já foi atualizada!",
+        "no-travel": "No viajar por el momento!",
+        "congratulations": "Parabéns",
+        "i-arrived": "Cheguei",
+        "scheduled-collection": "Sem coleta programada",
+        "start-the-journey": "Iniciar Viagem?",
+        "end-trip": "Finalizar a viagem",
+        "finished trip": "Viagem finalizada!",
+        "tempUrbanSolv" : "Viajem iniciada",
+        "end-the-trip-started": "Existe uma viagem iniciada, finalize-a",
+        "all-ctes-completed": "Todas os CT-es foram foram finalizados, a viagem será finalizada",
+        "press-the-button": "Quando ativo, pressione o botão",
+        "hello-driver-avaliable": "Olá motorista! Que bom que você terminou! Diga-me, quer estar disponível para uma nova viagem?",
+        "sponsor-mobile-data": "A partir daqui, não patrocinamos dados móveis. Você quer continuar?",
+        "inspect-alert": "Vá inspecionar o veículo {{name}} que fica a 30 minutos de sua localização.",
+        "inspect-alert-title": "ALERTA - INSPECIONAR ROTA",
+        "confirm-audit": "Quer confirmar a auditoria?",
+        "audit-saved": "Auditoria salva com sucesso!",
+        "completeStep" : "Por favor, conclua as etapas acima",
+        "sendRemission" : "Confirme o envio ou cancele", 
+        "blockbypickup" : "Por favor, termine a coleta antes de iniciar a entrega",
+        "error" : {
+          "geolocation" : "No momento não é possível acessar sua localização, tente novamente mais tarde ou verifique seu provedor de geolocalização"
+        },
+        "remission": {
+            "recipient": "Destinatário",
+            "CT-e": "CT-e ",
+            "destination": "Destino",
+            "invoice": "Notas Fiscais ",
+            "delivery": "Entregas ",
+            "pickup": "Coletas ",
+            "volume": "Volumes",
+            "invoices-total": "Total de notas :",
+            "client": "Cliente",
+            "address": "Endereço",
+            "executive": "Executivo",
+            "phone": "Telefone",
+            "boxes": "Total caixas", 
+            "boxesCold": "Caixas frias",
+            "boxesDry": "Caixas secas",
+            "remissionOne" : {
+              "registroFoto" : "Após registrar a planilha manualmente, faça um registro fotográfico nítido da planilha.",
+              "secondModal" :"Levar os registros fotográficos das caixas entregues na íntegra sem inventário como prova de não haver faltas ou defeitos"
+              },
+            "remissionTwo" : {
+              "registroFoto" : "Faça um registro fotográfico claro da remessa e dos documentos comprovativos que comprovem que o pedido foi entregue de forma satisfatória",
+              "secondModal" : "Faça um registro fotográfico da faixa de remessa com as informações preenchidas, carimbo e nome claro do destinatário.",
+              "modalThree" : "Faça um registro fotográfico da fatura com o carimbo de recebimento ou aviso de recebimento."
+            },
+	    "modalOne" : "Levar à REMESA um registo fotográfico, com carimbo ou nome do destinatário.",
+	    "modalPhotoTitle" : "Registro fotográfico",
+	    "modalTwo" : "Leve um registro fotográfico para o campo onde está o nome ou carimbo da pessoa que assina 'Lado direito da remessa'.",
+	    "modalThree" : "Faça um registro fotográfico da fatura com o carimbo de recebimento ou aviso de recebimento.",
+	    "deliveryDetailText" : "A documentação estava pendente no destinatário?",
+	    "deliveryTitle" : "Detalhes de entrega",
+            "signatureText": "Lembre-se que para a entrega completa do estoque é necessário cadastrar a assinatura do cliente.",
+	    "signatureTitle" : "Captura de assinatura",
+	    "deliveryConfirmText" : "Quer fazer outro registro fotográfico da mercadoria ou dos documentos?",
+	    "deliveryPuntofijoText" : "quer enviar assinatura e provas?",
+            "soporteModalText" : "A remessa tem mais suportes?",
+	    "signatureConfirm" : "A assinatura está correta?",
+	    "registroFotoSi" : "Após registrar a planilha manualmente, faça um registro fotográfico nítido da planilha.",
+	    "registroFotoNo" : "Faça um registro fotográfico claro da remessa e dos documentos comprovativos que comprovem que o pedido foi entregue de forma satisfatória"
+        },
+	"questionaire": {
+		"success" : "Remessa completa"
+	},
+  "geoCercas" : {
+    "stepOne": "Chegou ao seu destino. Precisa de confirmar a sua chegada ao posto de recolha 'Cliente'?",
+    "stepTwo" : "Você chegou ao seu destino. Você precisa confirmar a chegada no ramal de descarga?"
+   },
+	"textModal": {
+	    "title" : "Adicione um comentário",
+	    "button" : "Aceitar"
+	},
+	"modalScanQr": {
+	    "title" : "Detalhe da ordem de carregamento",
+	    "titleTwo" : "Insira o número de caixas",
+      "titleScanInput" : "Digite o código manualmente",
+	    "buttonLeft" : "Aceitar",
+	    "buttonRigth" : "Cancel",
+	    "bottomTitle" : "O cliente não tem caixas para despachar",
+	    "scanner" : "Ativar modo de scanner"
+	},
+	"colecta" : {
+		"titleOne" : "Confirmação",
+		"stepOne" : "Confirma a chegada do cliente?",
+		"stepTwo": "Tirar registro fotográfico do veículo carregado, caixas em mau estado, sem proteção e ordem de carregamento física lacrada",
+		"titleTwo" : "Registro fotografico",
+		"stepTwoPhotoOne" : "Faça o registro fotográfico das caixas",
+		"stepTwoPhotoTwo" : "Faça o registro fotográfico dos documentos",
+		"stepTwoPhotoThree" : "Faça um registro fotográfico da relação de despacho",
+		"stepThree" : "Certifique-se de ler o código impresso corretamente",
+	  "finalStept" : "Lembre-se que você deve dar esta opção nas instalações da SOLISTICA. Será feito a partir das informações cadastradas",
+    "endColecta" : "A coleção terminou com sucesso?"
+		
+	},
+  "colecta_avisos": {
+    "amarillo": "Prezado colaborador lembre-se que a coleta é às 14h. Caso tenha novidades para atender a chegada favor informar a área de coleta",
+    "rojo": "Prezado colaborador, falta menos de uma hora para cumprir a cobrança, caso tenha novidades informe a área de cobrança para notificar o incidente"
+  },
+    	"evidences" : {
+		"registro" : "Registro fotográfico",
+		"registroModalText" : "Lembre-se de fazer um registro fotográfico do documento físico, bem como da mercadoria recolhida",
+		"modalPhoto1" : "Faça o registro fotográfico do suporte RED assinado",
+		"modalPhoto2" : "Faça um registro fotográfico da mercadoria coletada",
+		"modalRotuloTitle": "Confirmação",
+		"modalRotuloBody" : "Os rótulos serão gerados?"
+    	},
+        "login": {
+            "incorrect-password": "Senha incorreta"
+        },
+
+        "preferences": {
+            "license-required": "Primeiro, você deve registrar sua carteira de motorista.",
+            "preferences-disabled": "Preferência desabilitadas",
+            "preferences-saved": "Preferência salvas",
+            "erase-warning": "Suas preferências serão excluídas, deseja continuar?"
+        },
+
+        "wanna-freight": {
+            "available-success": "Obrigado amigo! Agora você está disponível para nossa equipe de contratação. Deixe seu telefone ligado para que possamos entrar em contato com você.",
+            "available-failed": "Ooowww! Lembre-se, como não está disponível, você não receberá nenhuma oferta de transporte."
+        },
+
+        "remissions": {
+            "signatureText": "Lembre-se que para a entrega completa do estoque é necessário cadastrar a assinatura do cliente."
+        },
+
+        "actions": {
+            "login": {
+                "only-11-characters": "O campo CPF deve conter 11 caracteres",
+                "password-empty": "O campo da senha não pode estar vazio",
+                "check-connection": "Verifique sua conexão com a internet",
+                "login-error": "nome de usuário ou senha errada",
+                "password-confirmation": "A senha e a confirmação da senha devem ser as mesmas",
+                "fill-in-all-fields": "Todos os campos são obrigatórios.",
+                "cell-phone-incomplete": "Telefone incompleto",
+                "enter-a-valid-CPF": "Por favor, digite um cpf válido.",
+                "password-length": "A senha deve ter pelo menos 6 caracteres",
+                "valid-email": "Por favor digite um email válido.",
+                "corporate-email": "O uso de e-mail corporativo não é permitido neste aplicativo.",
+                "code-not-empty": "O código de verificação não pode estar vazio."
+            },
+            "payment-card": {
+                "card-repom": "Cartão de Pagamento",
+                "check-connection": "Verifique sua conexão com a internet"
+            },
+            "cnh": {
+                "fill-in-all-fields": "Por favor preencha todos os campos",
+                "cnh-number-valid": "Por favor, insira um número de cnh válido",
+                "date-formate": "A data tem o formato 'DD / MM / AAAA'"
+            },
+            "driver": {
+                "check-in-cte": "Loxalização de checkin CT-e",
+                "check-out-cte": "Localização de checkout CT-e",
+                "fill-in-all-fields": "todos os campos devem ser preenchidos.",
+                "valid-email": "Por favor digite um email válido.",
+                "corporate-email": "O uso de e-mail corporativo não é permitido",
+                "password-not-match": "A senha atual não corresponde à senha registrada",
+                "password-confirmation": "A senha e a confirmação da senha devem ser as mesmas",
+                "equal-password": "A nova senha é igual a senha atual",
+                "cell-phone-incomplete": "Ops, o telefone está incompleto."
+            },
+            "freigth-offers": {
+                "check-connection": "Verifique sua conexão com a internet",
+                "remove-vehicle-warning": "Ei amigo, tem certeza de que deseja retirar seu veículo? Assim você não receberá nenhuma oferta de transporte",
+                "without-car-warning": "Ups! Você não tem carro disponível, vamos colocar uma carro  para andar?!",
+                "approved-freight": "Frete aprovado",
+                "it-wasnt-this-time": "Whops! não foi dessa vez",
+                "do-you-accept": "Você aceita?",
+                "ok-bud": "Ok amigo, \n após sua confirmação, validaremos seu registro ... \n Espere um minuto e avisaremos se tudo estiver bem.",
+                "update-needed-warning": "Você deve atualizar as informações para este veículo. \n Vamos atualizar?",
+                "my-preferences": "MInha preferências",
+                "validating-travel": "Validando o frete"
+            },
+            "freigth-references": {
+                "route-length": "Para salvar as preferências, a rota curta ou longa deve ser ativado.",
+                "select-region": "Para salvar as preferências, escolha pelo menos uma região",
+                "check-connection": "Verifique sua conexão com a internet"
+            },
+            "freigth-wish": {
+                "check-connection": "Verifique sua conexão com a internet",
+                "select-vehicle": "Selecione um veículo",
+                "truck-body": "Selecione uma carroceria de caminhão",
+                "enable-location": "Habilitar localização",
+                "loctaion-unavailable": "Serviço de localização não disponível. Pode demorar alguns segundos para reiniciar o serviço. Volta a tentar."
+            },
+            "geolocation": {
+                "transport-position": "Localização transporte"
+            },
+            "geolocation-go-avaibility": {
+                "driver-available": "Motorista Disponivel"
+            },
+            "geolocation-go-monitoring": {
+                "Monitoreo preventivo": "Monitoramento Preventivo"
+            },
+            "low": {
+                "location-permission": "A permissão de localização é necessária para esta operação",
+                "enable-location": "Habilitar localização",
+                "loctaion-unavailable": "Serviço de localização não disponível. Pode demorar alguns segundos para reiniciar o serviço. Volta a tentar.",
+                "put-a-name": "Por favor, coloque um nome!",
+                "put-a-picture": "Por favor, coloque uma foto!",
+                "put-a-date": "Coloque uma data!",
+                "data-incorreta-manifest": "A data de entrega deve ser igual ou superior à data do manifesto!",
+                "delivery-mode": "entrega via celular",
+                "local-invoice": "Localização de entrega da nota fiscal",
+                "local-cte": "Local de entrega do CT-e"
+            },
+            "monitoring-preventive": {
+                "put-a-date": "Por favor insira a data",
+                "delayed": "Vou chegar atrasado para a Coleta, vou chegar às",
+                "delay-response": "Ok, motorista! Não tem problema, deixe o celular ligado e entraremos em contato para entendê-lo melhor!",
+                "check-connection": "Verifique sua conexão com a internet",
+                "i-cant-collect": "Eu não posso coletar",
+                "response-i-cant-collect": "Que pena, Mas essas coisas acontecem ... Faça assim, espere um minuto e ligaremos para você! Queremos entender melhor o que aconteceu",
+                "all-right": "Eu estou aqui"
+            },
+            "ocurrence": {
+                "descripition": "Faça uma descrição do que aconteceu",
+                "location-permission": "A permissão de localização é necessária para esta operação",
+                "enable-location": "Habilitar localização",
+                "loctaion-unavailable": "Serviço de localização não disponível. Pode demorar alguns segundos para reiniciar o serviço. Volte a tentar.",
+                "ocurrence-type": "Selecione um tipo de ocorrência!",
+                "photo-required": "3 fotos necessárias!",
+                "delivery-type": "Incidente registrado via celular",
+                "delivery-ocurrence": "Localização do local de entrega"
+            },
+            "owner-vehicles": {
+                "fill-in-all-fields": "Todos os campos são obrigatórios.",
+                "valid-cpf": "Por favor, insira um CPF válido",
+                "valid-cnpj": "Ingrese un CNPJ válido",
+                "valid-email": "Por favor digite um email válido.",
+                "response-new-owner": "Para salvar um novo proprietário, você deve primeiro preencher o registro CNH."
+            },
+            "responsible-freigth": {
+                "fill-in-all-fields": "Todos os campos são obrigatórios.",
+                "cell-phone-valid": "Por favor insira um número de telefone válido.",
+                "valid-email": "Por favor insira um endereço de e-mail válido."
+            },
+            "sync": {
+                "delivery-type-ocurrence": "Ocorrência registrado via celular",
+                "delivery-mode": "Entrega via celular"
+            },
+            "sync-travels-manual": {
+                "connect-to-the-Internet": "Por favor, conecte-se à Internet",
+                "delivery-type-ocurrence": "Ocorrẽncia registrada via celular",
+                "delivery-mode": "Entrega móvel"
+            },
+            "term": {
+                "location-permission": "A permissão de localização é necessária para esta operação",
+                "enable-location": "Habilitar localização",
+                "loctaion-unavailable": "Serviço de localização não disponível. Pode demorar alguns segundos para reiniciar o serviço. Volte a tentar.",
+                "local-termo": "Local do aceite do termo"
+            },
+            "transport": {
+                "location-permission": "A permissão de localização é necessária para esta operação",
+                "enable-location": "Habilitar localização",
+                "loctaion-unavailable": "Serviço de localização não disponível. Pode demorar alguns segundos para reiniciar o serviço. Volte a tentar.",
+                "end-transport": "Local do fim de transporte",
+                "restart-location": "Reinicie o serviço de localização",
+                "start-travel": "Local do Inicio da Viagem",
+                "connect-to-the-Internet": "Por favor conecte-se a Internet"
+            },
+            "truck-body": {
+                "fill-in-all-fields": "Todos os campos são obrigatórios."
+            },
+            "vehicle": {
+                "fill-in-all-fields": "Todos os campos são obrigatórios."
+            },
+            "audits": {
+                "photo": "Registro fotografico",
+                "superName": "Nome do Supervisor",
+                "totalOrders": "Pedidos totais",
+                "totalOrdersDelivered": "Total de pedidos entregues",
+                "orderIssues": "pedidos com novidade",
+                "observations": "Observações"
+            }
+        }
+    },
+
+    "photo": {
+
+    },
+
+    "photo-perfil": {
+        "options": {
+            "title": "Selecione uma opção",
+            "buttons": {
+                "cancel": "Cancelar",
+                "take-photo": "TIrar uma Foto",
+                "from-library": "Escolher da Galeria"
+            }
+        }
+    },
+
+    "routes": {
+        "register": "Registr-se",
+        "forgot-my-password": "Esqueci minha senha",
+        "password-reset": "Redefinição de senha",
+        "token-verification": "Verificação de token",
+        "offers": "Ofertas",
+        "saved-offers": "Ofertas salvas",
+        "wanna-freight": "Quero Frete",
+        "freight-preferences": "Preferências de frete",
+        "travels": "Viagens",
+        "term": "Finalize",
+        "user-data": "Dados do usuário",
+        "repom-card": "Dados do usuário",
+        "security": "Segurança",
+        "driver-data": "Dados do motorista",
+        "bodywork-data": "Dados de carrocería",
+        "owners": "Propietários",
+        "owner": "Propietario",
+        "responsible-for-freight": "Responsável pelo frete",
+        "transp-document": "Documento de transporte",
+        "ctes": "Última milha",
+        "ctes-n": "Encomendas",
+        "delivery-by-cte": "Entrega por CT-e",
+        "nfes": "Invoices",
+        "cte-nfe": "CT-e / NF-es",
+        "delivery": "Entrega",
+        "occurrence": "Ocorrência",
+        "delivery-cte": "Entrega CT-e",
+        "occurrence-cte": "Ocorrência CT-e",
+        "occurrence-nfe": "Ocorrência NF-e",
+        "settings": "Configuraciones",
+        "my-vehicles": "Meus Veículos",
+        "started-travels": "Viagem iniciadas",
+        "finished-travels": "Viagens finalizadas",
+        "travel-summary": "Resumo da viagem",
+        "notifications": "Notificações",
+        "my-work-day": "Jornada do Motorista",
+        "travels-transfer": "Tranferência de Viagens",
+        "delivery-route": "Rotas no Mapa",
+        "remission": "Informações Remissão",
+        "inspect": "Inspeção de rota",
+        "audit": "AUDITORIA",
+        "signatureRemission": "Captura de Assinatura",
+        "sacReport": "Relatório sac",
+	"mapHeader" : "Direção no Mapa",
+	"rotulosScreens": "Gerar Rótulos",
+	"auditScreen" : "Questionário de auditoria",
+	"colecta" : "Coleção"
+    },
+    "term": {
+        "checkbox-agree": "Concordo com o Termo"
+    },
+
+    "text-input-password": {
+        "password": "Senha",
+        "confirm-password": "Confirme a senha",
+        "new-password": "Nova senha",
+        "confirm-new-password": "Confirmar nova senha"
+    },
+
+    "version-checker": {
+        "succes-message": "Parabéns, você está com a versão mais atualizada do AGV GO."
+    },
+    "mapScreen" : {
+	"buttonLeft" : "rota",
+	"buttonRigth" : "Minha localização"
+    },
+    "rotulosScreens": {
+	"qrButton" : "GERAR RÓTULOS",
+	"network" : "SUPORTE DE REDE"
+    }
+}

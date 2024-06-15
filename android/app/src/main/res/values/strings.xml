@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Torre de Control</string>
+    <array name="smisdk_exclusion_domin"></array>
+    <bool name="smisdk_show_messaging">true</bool>
+    <string name="smisdk_apikey">ak-42153d00-8c58-4aba-8e0d-6fc552b5ad9a</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">(AIzaSyCJDbdp8hP1zm9ozzR0fvUJVdpxGna0i04)</string>
+</resources>

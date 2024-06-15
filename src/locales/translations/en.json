@@ -1,0 +1,800 @@
+{
+    "screens": {
+        "menu": {
+            "title": {
+                "offers": "Offers",
+                "travels": "Travels",
+                "inspect": "Route inspection",
+                "register": "Register",
+                "my-work-day": "Driver's journey",
+                "travels-transfer": "Transferencia Planillas",
+                "settings": "Settings",
+                "logout": "Logout"
+            },
+            "header": {
+                "welcome": "Welcome",
+                "testing-message": "Don't worry, you're in testing mode",
+		            "mapHeader" : "Direction on map"
+            },
+            "register": {
+                "menu": {
+                    "user-data": "User data",
+                    "my-vehicles": "My vehicles",
+                    "security": "Security"
+                },
+                "user-data": {
+                    "placeholder": {
+                        "nickname": "How would you like to be called?",
+                        "name": "Name",
+                        "phone": "Phone number",
+                        "cpf": "CPF",
+                        "email": "E-Mail"
+                    }
+                }
+            },
+            "offers": {
+                "title": {
+                    "freight-preferences": "Freight preferences",
+                    "wanna-freight": "Wanna freight",
+                    "offers": "Offers"
+                },
+                "preferences": {
+                    "edit-freight-preferences": "Edit freight preferences",
+                    "km-to-load": "How many kms I want to run to load?",
+                    "prefer-routes": "I prefer routes",
+                    "short": "Short",
+                    "long": "Long",
+                    "preferred-regions": "Preffered regions",
+                    "enter-short-km": "Enter the km between 10 and 190",
+                    "enter-long-km": "Enter the km between 200 and 5000"
+                },
+                "wanna-freight": {
+                    "warning-preferences": "Bud, increase your chances of being hired by keeping your preferences up to date",
+                    "license-plate": "License plate",
+                    "i-am-available": "I'm available",
+                    "vehicle": "Vehicle"
+                },
+                "offers": {
+                    "plate": "Plate",
+                    "shipping-company": "Shipping company",
+                    "travel-preference-warning": "This trip is according to your preferences",
+                    "offer-unavailable-warning": "This route has already been added by another driver, \n but stay here, we have other options for you",
+                    "congrats": "Congratulations! Wait for trip data",
+                    "select-plate-message": "Select the plate and carrier",
+                    "select-company-message": "Select the shipping company",
+                    "origin": "Origin",
+                    "destiny": "Destiny",
+                    "vehicle": "Vehicle",
+                    "distance": "Distance",
+                    "weight": "Weight",
+                    "load-type": "Load type",
+                    "collection": "Collection",
+                    "delivery-date": "Delivery date",
+                    "amount": "Amount",
+                    "freight-amount": "Freight amount",
+                    "payment": "Payment",
+                    "i-wanna-that": "I wanna that",
+                    "shared-by": "Shared by",
+                    "lets-ride-bud": "Let's ride bud?",
+                    "saved-in": "Saved in 'Liked offers'"
+                }
+            },
+            "new-password": {
+                "body": "You have logged in with a temporary password. Please enter a new password."
+            }
+        },
+        "colecta" : {
+         "stepOne" : "Confirm arrival at collection point 'client'",
+         "stepTwo" : "Photographic record boxes, document, dispatch relationship",
+         "stepThree" : "Confirm customer departure with documents",
+         "stepFour" : "Confirm arrival at branch to download",
+         "report" : "Collection area report"
+        }, 
+        "ctesScreen": {
+            "inventory": "COMPLETE DELIVERY INVENTORIED",
+            "noInventory" : "COMPLETE DELIVERY NO INVENTORIED",
+            "sac" : "SAC REPORT",
+            "entrega" : "COLLECTION WITH DIFFERENCES BOXES VS DOCUMENTS",
+            "support" : "Add photographic record",
+            "labels" : "Generate Labels",
+            "llegada" : "ARRIVAL AT POINT",
+            "inicio" : "START OF CHARGE",
+            "fin" : "END OF CHARGE",
+            "salida" : "POINT OUTPUT",
+            "descargue": "LOADING START"
+        },
+        "botonesRemesas": {
+            "llegadaRemesas": "LLEGADA AL PUNTO",
+            "descargandoRemesas": "DESCARGANDO",
+            "entregadoRemesas": "ENTREGADO"
+        },
+        "rotulos" : {
+            "network" : "Network",
+            "sendto" : "Send to",
+            "boxes" : "Boxes",
+            "kilos" : "Kilos",
+            "city" : "City" ,
+            "boxesReceived" : "Boxes Received",
+            "fridgeReceived" : "Fridges Received"
+        },
+        "ctes": {
+            "spreadsheet": "Transp Document",
+            "manifest": "Manifest",
+            "date-init": "Date Start",
+            "client": "Client",
+            "addressee": "Address",
+            "destination": "destination",
+            "volumes": "Volumes",
+            "scheduling": "Delivery date",
+            "eta": "ETA calculation",
+            "search": "Search ",
+            "number_spreadsheets": "Number of spreadsheets",
+            "processed_documents": "Remittances processed",
+            "boxes_delivered": "Boxes delivered",
+            "delivery" : "Delivery ",
+            "pickup": "Pickup",
+            "recipient": "Recipient"
+        },
+        "invoices": {
+            "recipient": "Recipient",
+            "CT-e": "Travel ",
+            "destination": "Address",
+            "invoice": "Invoice",
+            "delivery": "Delivery ",
+            "pickup": "Pickup ",
+            "volume": "volume",
+            "invoices-total": "Total invoices:"
+        },
+        "invoices-by-cte": {
+            "recipient": "Recipient",
+            "CT-e": "CT-e",
+            "destination": "destination",
+            "invoice": "invoice ",
+            "volume": "volume"
+        },
+
+        "modal": {
+            "use-test-mode": "Use testing mode?"
+        },
+        "login": {
+            "forgot-password": "Forgot my password",
+            "new-here": "Are you new here? Sign up",
+            "numbers-only": "CPF (numbers only)"
+        },
+        "low": {
+            "nf": "Pedido/Remesa:",
+            "volume": "Volume:",
+            "cte": "CT-e:",
+            "name": "Name"
+        },
+        "my-travels": {
+            "im-going-to-be-late": "I'm going to be late",
+            "new-collection": "You have a scheduled collection.",
+            "collection-information": "collection information",
+            "date-and-time": "date-and-time",
+            "i-will-not-collect": "I will not be able to collect",
+            "select-the-date": "Select the date",
+            "what-happened": "What happened?",
+            "trip-number": "Trip number ",
+            "tell-me-what-happened": "Tell me, what happened?",
+            "dont-forget-your-trip-number": "Don't forget your trip number",
+            "release-entry": "Introduce yourself at the entrance with your documents and vehicle",
+            "glad-you-came": "Glad you came",
+            "already-here-at-the-entrance": "Already here at the entrance!",
+            "i-can-arrive-at": "I can arrive at",
+            "no-travel": "No travel at the moment!"
+        },
+        "my-travel-initiate": {
+            "manifest": "Manifest",
+            "start-initi": "Start Date",
+            "no-trip-started": "No trip started",
+            "": ""
+        },
+        "my-travels-finish": {
+            "syncing": "Syncing",
+            "synced": "Synced",
+            "no-trip-completed!": "No trip completed!",
+            "sync": "synchronize",
+            "delete": "delete"
+        },
+        "occurrence": {
+            "nf": "Pedido/Remesa:",
+            "volume": "Volume:",
+            "cte": "CT-e:",
+            "placeholder": "Type of occurrence",
+            "description": "Description"
+        },
+        "reset-password": {
+            "to-reset-your-password": "To recover your password, enter your CPF below"
+        },
+        "token-verify": {
+            "token": "Enter the verification code:",
+            "placeholder-token": "Verification code"
+        },
+        "register": {
+            "nickname": "How would you like to be called",
+            "name": "Name",
+            "cpf": "CPF",
+            "cell-phone": "Phone number",
+            "email": "Email",
+            "confirm-the-password": "Confirm the Password"
+        },
+        "auth": {
+            "loading": "Loading..."
+        },
+        "term": {
+            "agree-term": "I agree with the above term"
+        },
+        "travels-tranfer": {
+            "just-an-option": "Complete solo una opción",
+            "consignment-or-planillla": "Complete el número de Planilla o Remesa",
+            "send-sucess": "Sent with success",
+            "send-error": "Error sending"
+        },
+        "settings": {
+            "wifi": "WiFi",
+            "location": "Location",
+            "diagnostic": "Diagnostic",
+            "open-settings": "Open App Settings",
+            "changing": "Changing",
+            "on": "On",
+            "off": "Off"
+        },
+        "spreadsheet": {
+            "date-init": "Start date",
+            "manifest": "Manifest",
+            "origin": "Origin",
+            "final-destination": "Final destination",
+            "deliveries": "Deliveries",
+            "invoices": "Invoices",
+            "volumes": "Volumes",
+            "trip-started": "Trip started",
+            "finish-the-previous-trip": "Finish the previous trip"
+        },
+        "reset-token": {
+            "reset-password-token": "Reset password"
+        },
+        "next-collect": {
+            "next-collection": "Next Collection",
+            "scheduled-collection": "No scheduled collection",
+            "travel": "Travel",
+            "collection-date": "Collection Date",
+            "rescheduled-date": "Rescheduled Date",
+            "hour": "Hour"
+        },
+        "remission": {
+            "recipient": "Recipient",
+            "CT-e": "CT-e ",
+            "destination": "destination",
+            "invoice": "Invoice",
+            "delivery": "Delivery ",
+            "pickup": "Pickup ",
+            "volume": "volume",
+            "invoices-total": "Total invoices:",
+            "client": "Client",
+            "address": "Address",
+            "executive": "Executive",
+            "phone": "Phone Number",
+            "boxes": "Total boxes",
+            "boxesCold": "Cold boxes",
+            "boxesDry": "Dry boxes"
+        },
+        "inspects": {
+            "auditDate": "Audit date",
+            "disAux": "Distribution auxiliaries",
+            "driverName": "Driver's name",
+            "license": "License"
+        },
+        "audits": {
+            "photo": "Photographic record",
+            "superName": "Supervisor Name",
+            "totalOrders": "Total orders",
+            "totalOrdersDelivered": "Total orders delivered",
+            "orderIssues": "Order issues",
+            "observations": "Observations"
+        },
+        "sacReport": {
+            "nf": "Pedido/Remesa:",
+            "volume": "Volume:",
+            "cte": "CT-e:",
+            "placeholder": "Type of occurrence",
+            "description": "Description"
+        },
+        "date-picker": {
+            "delivery-date": "Delivery date",
+            "select-date": "Select date",
+            "delivery-arrived": "Arrival date",
+            "pickup-start" : "Upload date",
+            "delivery-start": "Download date",
+            "delivery-end": "End Download",
+            "pickup-end" : "End Upload"
+        }
+    },
+
+    "buttons": {
+        "print" : "Print",
+        "enter": "Enter",
+        "send": "Send",
+        "register": "Register",
+        "no": "No",
+        "yes": "Yes",
+        "cancel": "Cancel",
+        "ok": "OK",
+        "go-to-store": "Go to the store",
+        "save": "Save",
+        "ok-got-it": "OK, I got it",
+        "verify": "Verify",
+        "confirm": "Confirm",
+        "midwest": "Midwest",
+        "north": "North",
+        "northeast": "Northeast",
+        "southeast": "Southeast",
+        "south": "South",
+        "for-my-vehicle": "For my vehicle",
+        "other-offers": "Other offers",
+        "liked-offers": "Liked offers",
+        "back": "Back",
+        "later": "Later",
+        "now": "Now",
+        "spy": "Take a look",
+        "available": "Available",
+        "traveling": "Traveling",
+        "unavailable": "Unavailable",
+        "problem": "Problem",
+        "arrived": "Arrived",
+        "i-arrived": "I Arrived",
+        "delivery": "Delivery",
+        "pickup": "Pickup",
+        "occurrence": "Occurrence",
+        "checkin": "I arrived at the delivery destination",
+        "delivering": "Delivering...",
+        "confirm-delivery": "CONFIRM DELIVERY",
+        "save-occurrence": "Save occurrence",
+        "pending-trip": "Pending trip! Click to upgrade",
+        "return": "Return",
+        "notify": "Notify",
+        "no-travel": "unsynchronized trips, click here!",
+        "start": "Start",
+        "start-trip": "Start trip",
+        "end-trip": "End the trip",
+        "send-data": "Send",
+        "get-hour": "Now",
+        "finish-pickup": "Finish",
+        "init-journey-delivery": "Start Trip",
+        "end": "Finish",
+        "refresh": "Refresh",
+        "maps": "Maps",
+        "route": "Route",
+        "my-location": "My Location",
+        "ok-inspect": "To inspect",
+        "audit": "Audit",
+        "save-audit": "Save audit",
+        "accept": "Accept"
+    },
+
+
+    "date-picker": {
+        "delivery-date": "Delivery date",
+        "select-date": "Select date",
+        "delivery-arrived": "Arrival date",
+        "pickup-start" : "Upload date",
+        "delivery-start": "Download date",
+        "delivery-end": "End Download",
+        "pickup-end" : "End Upload"
+    },
+
+    "diagnostics": {
+        "internet": "Internet",
+        "internet-on": "Connected",
+        "internet-off": "Disconnected",
+        "gps": "GPS",
+        "gps-on": "Activated",
+        "gps-off": "Turn on your GPS in high precision mode",
+        "battery": "Battery",
+        "clock": "Clock"
+    },
+
+    "empty": {
+
+    },
+    "geolocation": {
+        "notification": {
+            "title": "Location",
+            "text": "Activated"
+        },
+        "alert": {
+            "title": "AGV GO requires location tracking permission",
+            "message": "Would you like to open the application settings?",
+            "buttons": {
+                "no": "No",
+                "yes": "Yes"
+            }
+        }
+    },
+
+    "loading": {
+        "text": "Loading..."
+    },
+
+    "modal": {
+        "llegada_urbanos": "Please finish the arrival and loading to start the order",
+        "urbanos-admin-llegada": "Please, finish the arrival before starting the download",
+        "entrega_urbanos" : "Please conclude the type of delivery before continuing",
+        "salida" : "Please finish the previous step before starting the trip",
+        "attention": "Attention",
+        "delete-profile-photo": "Do you want to delete the profile photo?",
+        "app-out-of-date": "We saw here that your version is out of date! Click here to update",
+        "term": "Term",
+        "fill-driver-data": "Please, fill the driver's data first",
+        "enter-the-password": "Enter the password",
+        "use-homologation": "Do you want to use Homologation",
+        "diagnostic": "Diagnostic",
+        "use-test-mode": "Do you want to use Testing Mode",
+        "access-denied": "Bud, to use this functionality, contact the Solística team",
+        "checkout-automatically": "Checkout will be performed automatically.",
+        "cte-finalized": "all NFs have been finalized, the CTE will be finalized",
+        "new-password": "Enter a new password",
+        "delivery-confirmed": "Delivery confirmed successfully!",
+        "pickup-confirmed": "Pickup confirmed successfully!",
+        "confirm-delivery": "Do you want to confirm delivery?",
+        "confirm-pickup": "Do you want to confirm pickup?",
+        "occurrence": "Occurrence",
+        "occurrence-saved": "Occurrence saved successfully!",
+        "save-the-occurrence": "Do you want to save occurrence?",
+        "delet-trip": "Successfully deleted trips!",
+        "sync-travels-sucess": "Travel synchronized successfully!",
+        "synced-delete": "Do you want to delete completed and synchronized trips?",
+        "delete-complete-trips": "Do you want to sync completed trips?",
+        "connect-to-accept": "You must be connected to the Internet to accept the term",
+        "go-to-the-concierge": "Thanks Driver! Now just show up at the reception with the document in hand",
+        "trip-update": "The trip has already been updated!",
+        "no-travel": "No travel at the moment!",
+        "congratulations": "Congratulations",
+        "i-arrived": "I Arrived",
+        "scheduled-collection": "No scheduled collection",
+        "start-the-journey": "Do you want to start the journey?",
+        "end-trip": "Do you want to end the trip?",
+        "finished trip": "The trip ended successfully!",
+        "end-the-trip-started": "There is a journey started, finish it!",
+        "all-ctes-completed": "All CTEs have been completed, the trip will be completed",
+        "press-the-button": "When activated, press the button",
+        "hello-driver-avaliable": "Hello, driver! Glad it's over!Tell me, do you want to be available for a new trip?",
+        "sponsor-mobile-data": "From here, we do not sponsor mobile data. Do you want to continue?",
+        "inspect-alert": "Please go to inspect the {{name}} vehicle which is 30 minutes from your location.",
+        "inspect-alert-title": "ALERT - INSPECT ROUTE",
+        "confirm-audit": "Do you want to confirm audit?",
+        "audit-saved": "Audit saved successfully!",
+        "completeStep" : "Please, complete previous step",
+        "endRemision" : "Confirm shipment or cancel",
+        "blockbypickup" : "Please finish the collection before starting the delivery",
+        "tempUrbanSolv" : "Trip started",
+        "error" : {
+          "geolocation" : "At this time it is not possible to access your location, try again later or check your geolocation provider"
+        },
+	"textModal": {
+	    "title" : "Add a comment",
+	    "button" : "Accept"
+	},
+  "geoCercas" : {
+    "stepOne": "You have arrived at your destination. Do you need to confirm your arrival at the 'Customer' collection point?",
+    "stepTwo" : "You have arrived at your destination. Do you need to confirm arrival at the unloading branch?"
+   },
+	"modalScanQr": {
+	    "title" : "Detail of the loading order",
+	    "titleTwo" : "Enter the number of boxes",
+	    "buttonLeft" : "Accept",
+      "titleScanInput" : "Enter the code manually",
+	    "buttonRigth" : "Cancel",
+	    "bottomTitle" : "Customer does not have boxes to dispatch",
+	    "scanner" : "Enable scanner mode"
+	},	
+	"colecta" : {
+		"titleOne" : "Confirmation",
+		"stepOne" : "Do you confirm the arrival of the client?",
+		"stepTwo": "Take a photographic record of the loaded vehicle, boxes in poor condition, without protection and sealed physical loading order",
+		"titleTwo" : "Photographic record",
+		"stepTwoPhotoOne" : "Take photographic record of boxes",
+		"stepTwoPhotoTwo" : "Take photographic record of documents",
+		"stepTwoPhotoThree" : "Take a photographic record of the dispatch relationship",
+		"stepThree" : "Make sure you scan the printed code correctly",
+	  "finalStept" : "Remember that you must give this option in the SOLISTICA facilities. It will be done from the registered information",
+    "endColecta" : "Did the collection end successfully?"
+	},
+  "colecta_avisos": {
+    "amarillo": "Dear collaborator remember that the collection is at 2:00 PM if you have news to meet the arrival please inform the collection area",
+    "rojo": "Dear collaborator, it is less than an hour from complying with the collection, if you have news, please inform the collection area to notify the incident"
+  },
+	"questionaire": {
+		"success": "Send successfully"
+	},
+  "evidences" : {
+		"registro" : "Photographic record",
+		"registroModalText" : "Remember to take a photographic record of the physical document as well as the collected merchandise",
+		"modalPhoto1" : "Take photographic record of the signed RED support",
+		"modalPhoto2" : "Take a photographic record of the merchandise collected",
+		"modalRotuloTitle": "Confirm",
+		"modalRotuloBody" : "Are you going to generate labels?"
+  },
+  "login": {
+      "incorrect-password": "Incorrect password"
+  },
+
+  "preferences": {
+      "license-required": "First, you must register your drive license.",
+      "preferences-disabled": "Preferences disabled",
+      "preferences-saved": "Preferences saved",
+      "erase-warning": "Your preferences will be erased, do you want to continue?"
+  },
+
+  "wanna-freight": {
+      "available-success": "Thanks bud! Now you're available to our hiring team. Leave your phone on so we can get in touch with you.",
+      "available-failed": "Ooowww! Remember, becoming unavailable you wont receive any freight offers."
+  },
+
+  "remission": {
+    "signatureText": "Remember that for the complete delivery of the inventory you must register the customer's signature.",
+    "signatureTitle" : "Signature capture",
+    "modalOne" : "Take a photographic record to REMESA, with the stamp or name of the recipient.",
+    "modalTwo" : "Keep a photographic record in the field where the name or stamp of the person signing 'Right part of the remission' is located.",
+    "modalThree" : "Take a photographic record of the invoice with the stamp of receipt or acknowledgment of receipt.",
+    "modalPhotoTitle" : "Photographic record",
+    "deliveryDetailText" : "Was the documentation pending with the recipient?",
+    "deliveryTitle" : "Delivery Detail",
+    "deliveryConfirmText": "Do you want to take another photographic record of the merchandise or documents?",
+    "deliveryPuntofijoText" : "do you want to send signature and evidence?",
+    "soporteModalText" : "Does the consignment have more supports?",
+    "signatureConfirm" : "Signature is Ok?",
+    "registroFotoSi" : "After manually registering the spreadsheet, take a clear photographic record of the spreadsheet.",
+    "registroFotoNo" : "Take a clear photographic record of the remittance and supporting documents in proof that the order was delivered to satisfaction",
+    "remissionOne" : {
+      "registroFoto" : "After manually registering the spreadsheet, take a clear photographic record of the spreadsheet.",
+      "secondModal" : "Take photographic records of the boxes delivered in their entirety without inventory in proof of not having missing or faults"
+    },
+    "remissionTwo" : {
+      "registroFoto" : "Take a clear photographic record of the remittance and supporting documents in proof that the order was delivered to satisfaction",
+      "secondModal" : "Take a photographic record of the remittance strip with the information filled in, stamp and clear name of the recipient.",
+      "modalThree" : "Take a photographic record of the invoice with the stamp of receipt or acknowledgment of receipt."
+    }
+  },
+      "actions": {
+          "login": {
+              "only-11-characters": "CPF field must contain 11 characters",
+              "password-empty": "Password field cannot be empty",
+              "check-connection": "Check your internet connection",
+              "login-error": "Incorrect username or password",
+              "password-confirmation": "Password and password confirmation must be the same",
+              "fill-in-all-fields": "All fields must be filled.",
+              "cell-phone-incomplete": "Oops, phone is incomplete.",
+              "enter-a-valid-CPF": "Please enter a valid CPF.",
+              "password-length": "Password must be at least 6 characters",
+              "valid-email": "Please, type a valid email.",
+              "corporate-email": "The use of corporate email is not allowed",
+              "code-not-empty": "The verification code cannot be empty"
+          },
+          "payment-card": {
+              "card-repom": "Card Repon",
+              "check-connection": "Check your internet connection"
+          },
+          "cnh": {
+              "fill-in-all-fields": "Please fill in all fields",
+              "cnh-number-valid": "Please enter a valid cnh number",
+              "date-formate": "Date is in format 'DD/MM/YYYY' on method set from cnh action"
+          },
+          "driver": {
+              "check-in-cte": "CT-e checkin position",
+              "check-out-cte": "CT-e checkout position",
+              "fill-in-all-fields": "All fields must be filled.",
+              "valid-email": "Please, type a valid email.",
+              "corporate-email": "The use of corporate email is not allowed",
+              "password-not-match": "Current password does not match the registered password",
+              "password-confirmation": "Password and password confirmation must be the same",
+              "equal-password": "New password is the same as the current password",
+              "cell-phone-incomplete": "Oops, phone is incomplete."
+          },
+          "freigth-offers": {
+              "check-connection": "Check your internet connection",
+              "remove-vehicle-warning": "Hey bud, are you sure you want to take your vehicle out? That way you will not receive any freight offers",
+              "without-car-warning": "Whops! You don't have any available car, let's put this one to ride?",
+              "approved-freight": "Approved freight",
+              "it-wasnt-this-time": "Whops! It wasn't this time.",
+              "do-you-accept": "Do you accept?",
+              "ok-bud": "Ok bud, \nafter your confirmation, we will validate your registration... \nWait a minute and we`ll let you know if everything works out",
+              "update-needed-warning": "You must update the information for this vehicle \n Let's update?",
+              "my-preferences": "My preferences",
+              "validating-travel": "Validating the freight"
+          },
+          "freigth-references": {
+              "route-length": "To save preferences, the short or long route must be activated.",
+              "select-region": "To save preferences, choose at least one region",
+              "check-connection": "Check your internet connection"
+          },
+          "freigth-wish": {
+              "check-connection": "Check your internet connection",
+              "select-vehicle": "Please select a vehicle",
+              "truck-body": "Please select a truck body",
+              "enable-location": "Please enable Location",
+              "loctaion-unavailable": "Location service unavailable. It may take a few seconds to restart the service, please try again"
+          },
+          "geolocation": {
+              "transport-position": "Transport position"
+          },
+          "geolocation-go-avaibility": {
+              "driver-available": "Driver available"
+          },
+          "geolocation-go-monitoring": {
+              "preventive-monitoring": "Preventive-Monitoring"
+          },
+          "low": {
+              "location-permission": "Location permission required for this operation",
+              "enable-location": "Please enable Location",
+              "loctaion-unavailable": "Location service unavailable. It may take a few seconds to restart the service, please try again",
+              "put-a-name": "Please put a name!",
+              "put-a-picture": "Please put a picture",
+              "put-a-date": "Please enter the date",
+              "data-incorreta-manifest": "The delivery date must be equal to or greater than the date of the manifest!",
+              "delivery-mode": "delivery via Mobile",
+              "local-invoice": "invoice delivery location",
+              "local-cte": "CT-e delivery location"
+          },
+          "monitoring-preventive": {
+              "put-a-date": "Please enter the date",
+              "delayed": "I will be late for collection, I will arrive at",
+              "delay-response": "Ok driver! No problem, leave your cell phone on and we will contact you to understand you better!",
+              "check-connection": "Check your internet connection",
+              "i-cant-collect": "I can't collect",
+              "response-i-cant-collect": "What a pity, But these things happen ... Do it like that, wait a minute and we'll call you! We want to understand better what happened",
+              "all-right": "Alright, I'm here"
+          },
+          "ocurrence": {
+              "descripition": "Give a description of what happened",
+              "location-permission": "Location permission required for this operation",
+              "enable-location": "Please enable Location",
+              "loctaion-unavailable": "Location service unavailable. It may take a few seconds to restart the service, please try again",
+              "ocurrence-type": "Select an occurrence type!",
+              "photo-required": "All 3 photos are necessary",
+              "delivery-type": "Occurrence recorded via Cell Phone",
+              "delivery-ocurrence": "Delivery Occurrence location"
+          },
+          "owner-vehicles": {
+              "fill-in-all-fields": "All fields must be filled.",
+              "valid-cpf": "Please enter a valid CPF.",
+              "valid-cnpj": "Please enter a valid CNPJ. '",
+              "valid-email": "Please, type a valid email.",
+              "response-new-owner": "To save a new owner, you must first complete the CNH record."
+          },
+          "responsible-freigth": {
+              "fill-in-all-fields": "All fields must be filled.",
+              "cell-phone-valid": "Please enter a valid phone number.",
+              "valid-email": "Please enter a valid email address."
+          },
+          "sync": {
+              "delivery-type-ocurrence": "Occurrence recorded via Cell Phone",
+              "delivery-mode": "Delivery via Mobile"
+          },
+          "sync-travels-manual": {
+              "connect-to-the-Internet": "Please connect to the Internet",
+              "delivery-type-ocurrence": "Occurrence recorded via Cell Phone",
+              "delivery-mode": "Delivery via Mobile"
+          },
+          "term": {
+              "location-permission": "Location permission required for this operation",
+              "enable-location": "Please enable Location",
+              "loctaion-unavailable": "Location service unavailable. It may take a few seconds to restart the service, please try again",
+              "local-termo": "Place where the term was accepted"
+          },
+          "transport": {
+              "location-permission": "Location permission required for this operation",
+              "enable-location": "Please enable Location",
+              "loctaion-unavailable": "Location service unavailable. It may take a few seconds to restart the service, please try again",
+              "end-transport": "End of transport location",
+              "restart-location": "Restarting the location service",
+              "start-travel": "Starting place of the trip",
+              "connect-to-the-Internet": "Please connect to the Internet"
+          },
+          "truck-body": {
+              "fill-in-all-fields": "All fields must be filled."
+          },
+          "vehicle": {
+              "fill-in-all-fields": "All fields must be filled."
+          },
+          "audit": {
+              "photo": "Photographic record",
+              "superName": "Supervisor Name",
+              "totalOrders": "Total orders",
+              "totalOrdersDelivered": "Total orders delivered",
+              "orderIssues": "Order issues",
+              "observations": "Observations"
+          }
+      }
+    },
+
+    "photo": {
+
+    },
+
+    "photo-perfil": {
+        "options": {
+            "title": "Choose an option",
+            "buttons": {
+                "cancel": "Cancel",
+                "take-photo": "Take a Picture",
+                "from-library": "Choose from library"
+            }
+        }
+    },
+
+    "routes": {
+        "pickup": "Pickup",
+        "register": "Register",
+        "forgot-my-password": "I forgot my Password",
+        "password-reset": "Password Reset",
+        "token-verification": "Token Verification",
+        "offers": "Offers",
+        "saved-offers": "Saved Offers",
+        "wanna-freight": "Wanna Freight",
+        "freight-preferences": "Freight preferences",
+        "travels": "Travels",
+        "term": "Term",
+        "user-data": "User data",
+        "repom-card": "Repom Card",
+        "security": "Security",
+        "driver-data": "Driver's Data",
+        "vehicle-data": "Vehicle's Data",
+        "bodywork-data": "Bodywork's Data",
+        "owners": "Owners",
+        "owner": "Owner",
+        "responsible-for-freight": "Responsible for Freight",
+        "transp-document": "Transp Document",
+        "ctes": "Last Mille",
+        "ctes-n": "Orders",
+        "delivery-by-cte": "Delivery by CT-e",
+        "nfes": "Invoices",
+        "cte-nfe": "CT-e / NF-es",
+        "delivery": "Delivery",
+        "occurrence": "Occurrence",
+        "delivery-cte": "Delivery CT-e",
+        "occurrence-cte": "Occurrence CT-e",
+        "occurrence-nfe": "Occurrence NF-e",
+        "settings": "Settings",
+        "my-vehicles": "My Vehicles",
+        "started-travels": "Started Travels",
+        "finished-travels": "Finished Travels",
+        "travel-summary": "Travel Summary",
+        "notifications": "Notifications",
+        "my-work-day": "Driver's Journey",
+        "travels-transfer": "Travel Transfers",
+        "delivery-route": "Indicaciones en el mapa",
+        "remission": "Information Remission",
+        "inspect": "ROUTE INSPECTION",
+        "audit": "AUDIT",
+        "signatureRemission": "Capture Signature",
+        "sacReport": "SAC Report",	
+	"mapHeader" : "Direction on map",
+	"rotulosScreens" : "Generate Labels",
+	"auditScreen" : "Audit questionnaire",
+	"colecta" : "Collect" 
+    },
+    "term": {
+        "checkbox-agree": "I agree with the above term"
+    },
+
+    "text-input-password": {
+        "password": "Password",
+        "confirm-password": "Confirm the password",
+        "new-password": "New Password",
+        "confirm-new-password": "Confirm new password"
+    },
+
+    "version-checker": {
+        "succes-message": "Congratulations you already have the latest version of AGV GO"
+    },
+
+    "mapScreen" : {
+	"buttonLeft" : "route",
+	"buttonRigth" : "My location"
+    },
+    "rotulosScreens": {
+	"qrButton" : "GENERATE LABELS",
+	"network" : "NETWORK SUPPORT"
+    }
+}
